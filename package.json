@@ -5,7 +5,7 @@
   },
   "name": "brest-jayschema",
   "description": "Validate JSON request body using JaySchema",
-  "version": "0.0.1",
+  "version": "0.0.1a",
   "repository": {
     "type": "git",
     "url": "https://github.com/MaximTovstashev/brest-jayschema.git"

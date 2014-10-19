@@ -13,7 +13,7 @@ var VALIDATION_FAILED = 422;
 
 var BrestJaySchema = {
     init: function(brest){
-        settings = _.defaults(brest.getSetting('jayschema'),{
+        settings = _.defaults(brest.getSetting('jayschema', {}),{
             url: "local://ref/",
             path: fs.realpathSync(path.resolve(require('path').dirname(require.main.filename),"schema"))
         });
