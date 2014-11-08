@@ -69,4 +69,10 @@ Example:
             person.create(req.body, callback);
         }
     }
-```        
+```
+
+###3 Changes
+
+####0.0.2
+
+Async init
