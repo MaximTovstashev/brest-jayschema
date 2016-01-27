@@ -40,8 +40,9 @@ var BrestJaySchema = {
 
     method: {
         beforeHandler: function (method, req, callback){
-            if (method.description.schema) {
-                js.validate(req.body, settings.url+method.description.schema, function(error){
+            var schema_name;
+            if (schema_name = method.getField('schema')) {
+                js.validate(req.body, settings.url + schema_name, function(error){
                     if (error) {
                         error.code = VALIDATION_FAILED;
                         callback(error);

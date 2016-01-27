@@ -1,12 +1,12 @@
-#Brest-Jayschema
+# Brest-Jayschema
 
-##About
+## About
 
 Brest-Jayschema is Brest extension for posted json data validation, using JaySchema
 
-##How do I use it?
+## How do I use it?
 
-###1. Install from package manager
+### 1. Install from package manager
 
 If your project uses [package.json](https://npmjs.org/doc/json.html), simply include
 
@@ -24,8 +24,8 @@ Otherwise, you can install brest globally with npm and have it available from an
 
     $ npm install -g brest-jayschema
     
-###2 Setup
-####2.1 Application file
+### 2 Setup
+#### 2.1 Application file
 
 In your application file:
 
@@ -37,7 +37,7 @@ In your application file:
     brest.use(BrestJaySchema);    
 ```
 
-####2.2 Settings
+#### 2.2 Settings
 
 You can setup custom folder for the schema files in brest settings file:
 
@@ -51,7 +51,7 @@ You can setup custom folder for the schema files in brest settings file:
 }   
 ```
 
-####2.3 API description
+#### 2.3 API description
 ```javascript
 {
     schema: "%schema_name%" 
@@ -71,8 +71,12 @@ Example:
     }
 ```
 
-###3 Changes
+### 3 Changes
 
-####0.0.2
+#### 0.0.3
+
+Updated to comply with changes in brest method description
+
+#### 0.0.2
 
 Async init
