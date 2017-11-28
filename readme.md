@@ -3,6 +3,7 @@
 ## About
 
 Brest-Jayschema is Brest extension for posted json data validation, using JaySchema
+**NB! brest-jayschema will be discontinued in favour of brest-ajv**
 
 ## How do I use it?
 
